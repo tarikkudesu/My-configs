@@ -20,5 +20,5 @@ then run
 
 ## c auto complete plugin
 
-I use coc, i requires a few dependencies that should be installed first (Node.js and npm), after that you can install the language server for c : clangd by runing
+I use coc, it requires a few dependencies that should be installed first (Node.js and npm), after that you can install the language server for c (clangd) by running :
 ``` :CocInstall coc-clangd ```
