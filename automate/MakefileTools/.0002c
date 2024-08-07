@@ -1,0 +1,9 @@
+
+OBJ		=	$(SRC:.c=.o)
+NAME	=	prog
+
+all: $(NAME)
+
+$(NAME): $(OBJ)
+	@cc -Wall -Wextra -Werror $(OBJ) -o $(NAME)
+
