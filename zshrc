@@ -3,18 +3,16 @@
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
-alias cclean="~/local/Cleaner_42.sh"
-alias light="~/local/light.sh"
-alias dark="~/local/dark.sh"
+alias cclean="~/local/automate/Cleaner_42.sh"
 alias ccp="c++ -Wall -Wextra -Werror -std=c++98"
 alias code="open -a Visual\ Studio\ Code"
 alias fillc="find . -name \"*.cpp\" | tr '\n' ' ' >> Makefile"
 alias fillh="find . -name \"*.hpp\" | tr '\n' ' ' >> Makefile"
-alias cppm="sh ~/.automate/.MakefileTools/cpp.sh"
-alias cm="sh ~/.automate/.MakefileTools/c.sh"
-alias ocf="~/.automate/ocf.sh"
-alias main="~/.automate/main.sh"
-alias header="~/.automate/header.sh"
+alias cppm="sh ~/local/automate/MakefileTools/cpp.sh"
+alias cm="sh ~/local/automate/MakefileTools/c.sh"
+alias ocf="~/local/automate/ocf.sh"
+alias main="~/local/automate/main.sh"
+alias header="~/local/automate/header.sh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -112,8 +110,3 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 PATH=/Users/tamehri/goinfre/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/munki:/Library/Apple/usr/bin
-
-# Load Homebrew config script
-source $HOME/.brewconfig.zsh
-
-source /Users/tamehri/.docker/init-zsh.sh || true # Added by Docker Desktop
