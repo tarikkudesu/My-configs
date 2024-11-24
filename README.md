@@ -5,7 +5,7 @@ before you start using this config you should install a plugin manager, VimPlug 
 
 ``` curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim ```
 
-after installing it, you can install pluging by adding the to the configuration file :
+after installing it, you can install pluging by adding it to the configuration file :
 
 ```
 call plug#begin('~/.vim/plugged')
@@ -67,4 +67,53 @@ Completion Navigation
 
 `<S-Tab>`: Navigate backward in completion options (when visible)
 
+
+# NERDTree Shortcuts
+
+### Open/Close NERDTree
+- `:NERDTreeToggle` — Toggle the NERDTree sidebar on or off.
+- `:NERDTreeFocus` — Focus on the NERDTree window.
+- `:NERDTreeFind` — Open NERDTree and focus on the current file.
+
+### Navigation
+- `h` — Navigate to the parent directory.
+- `l` — Open the selected file or directory.
+- `j` — Move down to the next item.
+- `k` — Move up to the previous item.
+- `gg` — Move to the first file in the directory.
+- `G` — Move to the last file in the directory.
+- `0` — Go to the top level of the tree (root directory).
+- `P` — Open a preview of the selected file (if the preview option is enabled).
+
+### File Operations
+- `m` — Open the file management menu:
+  - `a` — Add a new file.
+  - `d` — Delete a file or directory.
+  - `r` — Rename a file or directory.
+  - `c` — Copy a file or directory.
+  - `x` — Cut a file or directory.
+  - `p` — Paste the file or directory.
+  - `i` — Open the file in a new tab.
+
+### Directory Operations
+- `t` — Open the selected file in a new tab.
+- `T` — Open the selected file in a new split window.
+- `v` — Open the selected file in a vertical split.
+- `V` — Open the selected file in a horizontal split.
+- `u` — Navigate up to the parent directory (same as `h`).
+- `C` — Close the NERDTree window.
+
+### Miscellaneous
+- `o` — Open the selected file in the current window.
+- `O` — Open the selected directory in the current window.
+- `R` — Refresh the NERDTree view.
+- `q` — Close the NERDTree window.
+- `?` — Display the help for NERDTree commands.
+
+### Expanding/Collapsing Folders
+- `Enter` — Expand the selected directory (same as `l`).
+- `-` — Collapse the selected directory.
+
+### Search Files
+- `/` — Search for a file or folder within NERDTree.
 
