@@ -76,6 +76,27 @@
 		"filesystem": "cpp",
 		"list": "cpp",
 		"queue": "cpp",
-		"__memory": "cpp"
-	}
+		"__memory": "cpp",
+		"*.tcc": "cpp",
+		"clocale": "cpp",
+		"compare": "cpp",
+		"concepts": "cpp",
+		"numeric": "cpp",
+		"random": "cpp",
+		"numbers": "cpp"
+	},
+	// "workbench.sash.size": 1,
+	"workbench.sideBar.location": "left",
+	"workbench.statusBar.visible": false,
+	"editor.minimap.enabled": false,
+	"breadcrumbs.enabled": false,
+	"explorer.decorations.colors": false,
+	"editor.guides.indentation": false,
+	// "editor.renderLineHighlight": "none"
+	"editor.glyphMargin": false,
+	// "editor.lineNumbers": "off",
+	// "editor.showFoldingControls": "never"
+	"workbench.layoutControl.type": "menu",
+	// "workbench.layoutControl.enabled": false
+	"window.title": " "
 }
