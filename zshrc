@@ -8,11 +8,12 @@ alias ccp="c++ -Wall -Wextra -Werror -std=c++98"
 alias code="open -a Visual\ Studio\ Code"
 alias fillc="find . -name \"*.cpp\" | tr '\n' ' ' >> Makefile"
 alias fillh="find . -name \"*.hpp\" | tr '\n' ' ' >> Makefile"
-alias cppm="sh ~/local/automate/MakefileTools/cpp.sh"
-alias cm="sh ~/local/automate/MakefileTools/c.sh"
+alias cppm="sh ~/local/automate/cpp.sh"
+alias cm="sh ~/local/automate/c.sh"
 alias ocf="~/local/automate/ocf.sh"
 alias main="~/local/automate/main.sh"
 alias header="~/local/automate/header.sh"
+alias usage="du -sh * | sort -rh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -110,3 +111,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 PATH=/Users/tamehri/goinfre/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/munki:/Library/Apple/usr/bin
+
+source /Users/tamehri/.docker/init-zsh.sh || true # Added by Docker Desktop
+
+# Load Homebrew config script
+source $HOME/.brewconfig.zsh
