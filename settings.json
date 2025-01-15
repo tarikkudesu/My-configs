@@ -85,6 +85,7 @@
 		"random": "cpp",
 		"numbers": "cpp"
 	},
+	"editor.fontWeight": "bold",
 	// "workbench.sash.size": 1,
 	"workbench.sideBar.location": "left",
 	"workbench.statusBar.visible": false,
