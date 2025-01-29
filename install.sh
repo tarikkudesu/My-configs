@@ -1,6 +1,6 @@
 #!/bin/sh
 
-mkdir -p ~/local
-cp -r automate ~/local/
-chmod +x $(find ~/local/automate -name "*.sh" | tr '\n' ' ')
+git clone https://github.com/tarikkudesu/My-configs.git ~/local/tr
+chmod +x $(find ~/local/tr/automate -name "*.sh" | tr '\n' ' ')
 cp zshrc ~/.zshrc
+echo "\n\texecute \"source ~/.zshrc\"\n"
