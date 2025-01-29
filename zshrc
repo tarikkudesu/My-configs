@@ -3,9 +3,13 @@
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
+alias codeui="mkdir -p .vscode && cp ~/local/settings.json ./vscode/settings.json"
+alias help="~/local/automate/help.sh"
 alias cclean="~/local/automate/Cleaner_42.sh"
+alias clean="~/local/automate/Cleaner_42.sh"
 alias ccp="c++ -Wall -Wextra -Werror -std=c++98"
 alias code="open -a Visual\ Studio\ Code"
+alias vsc="~/local/code/code"
 alias fillc="find . -name \"*.cpp\" | tr '\n' ' ' >> Makefile"
 alias fillh="find . -name \"*.hpp\" | tr '\n' ' ' >> Makefile"
 alias cppm="sh ~/local/automate/cpp.sh"
@@ -111,8 +115,3 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 PATH=/Users/tamehri/goinfre/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/munki:/Library/Apple/usr/bin
-
-source /Users/tamehri/.docker/init-zsh.sh || true # Added by Docker Desktop
-
-# Load Homebrew config script
-source $HOME/.brewconfig.zsh
