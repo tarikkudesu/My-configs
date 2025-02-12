@@ -3,7 +3,7 @@
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
-alias codeui="mkdir -p .vscode && cp ~/local/tr/settings.json ./vscode/settings.json"
+alias codeui="mkdir -p .vscode && cp ~/local/tr/settings.json ./.vscode/settings.json"
 alias help="~/local/tr/automate/help.sh"
 alias cclean="~/local/tr/automate/Cleaner_42.sh"
 alias clean="~/local/tr/automate/Cleaner_42.sh"
