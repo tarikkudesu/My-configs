@@ -1,6 +1,7 @@
 {
 	"files.exclude": {
         "**/*.o": true,
+        "**/buildTools": true,
         "**/*.gitignore": true,
 		"**/.vscode": true
     },
