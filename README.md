@@ -1,5 +1,13 @@
 # My-vim-config
 
+## Install
+
+```sh -c "$(curl -fsSL https://raw.githubusercontent.com/tarikkudesu/My-configs/refs/heads/main/install.sh)"```
+
+## usage
+
+```help```
+
 ## Install VimPlug
 before you start using this config you should install a plugin manager, VimPlug is the one i used
 
