@@ -1,5 +1,9 @@
 # My-vim-config
 
+## Note
+
+You need to have oh-my-zsh installed
+
 ## Install
 
 ```sh -c "$(curl -fsSL https://raw.githubusercontent.com/tarikkudesu/My-configs/refs/heads/main/install.sh)"```
