@@ -5,7 +5,7 @@
 export ZSH="$HOME/.oh-my-zsh"
 alias codeui="mkdir -p .vscode && cp ~/local/tr/settings.json ./.vscode/settings.json"
 alias help="~/local/tr/automate/help.sh"
-alias build-dev-env="sh -c "$(curl -fsSL https://raw.githubusercontent.com/tarikkudesu/devenv/refs/heads/main/install.sh)""
+alias build-dev-env="sh -c \"$(curl -fsSL https://raw.githubusercontent.com/tarikkudesu/devenv/refs/heads/main/install.sh)\""
 alias cclean="~/local/tr/automate/Cleaner_42.sh"
 alias clean="~/local/tr/automate/Cleaner_42.sh"
 alias ccp="c++ -Wall -Wextra -Werror -std=c++98"
