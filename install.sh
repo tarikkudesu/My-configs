@@ -1,4 +1,6 @@
 #!/bin/sh
+#Author Tarik AMEHRI
+#42login : tamehri
 
 mkdir -p ~/local
 git clone https://github.com/tarikkudesu/My-configs.git ~/local/tr

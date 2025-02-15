@@ -1,4 +1,6 @@
 #!/bin/sh
+#Author Tarik AMEHRI
+#42login : tamehri
 
 clear
 echo "Enter Class Name"
@@ -20,9 +22,7 @@ echo "\t\t${className}( const ${className} &copy );" >> $headerFile
 echo "\t\t${className}	&operator=( const ${className} &assign );" >> $headerFile
 echo "\t\t~${className}();" >> $headerFile
 echo "};\n" >> $headerFile
-
 echo "#endif" >> $headerFile
-
 
 echo "#include \"${className}.hpp\"\n" >> $cppFile
 echo "${className}::${className}() {" >> $cppFile
