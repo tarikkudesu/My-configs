@@ -6,7 +6,7 @@ You need to have oh-my-zsh installed
 
 ## Install
 
-```curl -fsSL https://raw.githubusercontent.com/tarikkudesu/My-configs/refs/heads/main/install.sh >> ~/.zshrc```
+```curl -fsSL https://raw.githubusercontent.com/tarikkudesu/My-configs/refs/heads/main/alias.sh >> ~/.zshrc```
 
 ## usage
 
