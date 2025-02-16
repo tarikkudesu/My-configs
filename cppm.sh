@@ -2,8 +2,8 @@
 #Author Tarik AMEHRI
 #42login : tamehri
 
-cppfiles=$(find . -name "*.c" | tr '\n' ' ')
-hppfiles=$(find . -name "*.h" | tr '\n' ' ')
+cppfiles=$(find . -name "*.cpp" | tr '\n' ' ')
+hppfiles=$(find . -name "*.hpp" | tr '\n' ' ')
 
 echo "SRC		=	${cppfiles}" > Makefile
 echo 'OBJ		=	$(SRC:.cpp=.o)' >> Makefile
