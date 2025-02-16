@@ -3,7 +3,7 @@
 #42login : tamehri
 
 alias cclean='curl -fsSL https://raw.githubusercontent.com/tarikkudesu/My-configs/refs/heads/main/Cleaner_42.sh | bash' # 42 tool
-alias clean='curl -fsSL https://raw.githubusercontent.com/tarikkudesu/My-configs/refs/heads/main/linuxCleaner.sh | bash' # 42 tool
+alias clean='curl -fsSL https://raw.githubusercontent.com/tarikkudesu/My-configs/refs/heads/main/linuxCleaner.sh > /tmp/s.sh && chmod +x /tmp/s.sh && /tmp/s.sh' # 42 tool
 alias code="open -a Visual\ Studio\ Code" # 42 tool
 alias vsc="~/local/code/code" # 42 tool
 alias usage="du -sh * | sort -rh" # 42 tool
