@@ -7,7 +7,7 @@ You need to have oh-my-zsh installed
 ## Install
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/tarikkudesu/My-configs/refs/heads/main/alias.sh >> ~/.zshrc
+curl -fsSL https://raw.githubusercontent.com/tarikkudesu/My-configs/refs/heads/main/alias.sh >> ~/.zshrc && source ~/.zshrc
 ```
 
 ## usage
