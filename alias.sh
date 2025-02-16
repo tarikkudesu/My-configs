@@ -8,6 +8,7 @@ alias code="open -a Visual\ Studio\ Code" # 42 tool
 alias vsc="~/local/code/code" # 42 tool
 alias usage="du -sh * | sort -rh" # 42 tool
 
+alias build-dev-env='sh -c "$(curl -fsSL https://raw.githubusercontent.com/tarikkudesu/devenv/refs/heads/main/install.sh)"'
 alias codeui="mkdir -p .vscode && curl -fsSL https://raw.githubusercontent.com/tarikkudesu/My-configs/refs/heads/main/settings.json > .vscode/settings.json"
 alias help='curl -fsSL https://raw.githubusercontent.com/tarikkudesu/My-configs/refs/heads/main/help.sh | bash'
 alias cppf="c++ -Wall -Wextra -Werror -std=c++98"
