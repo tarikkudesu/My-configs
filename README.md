@@ -1,4 +1,4 @@
-# My-vim-config
+# My-config
 
 ## Note
 
