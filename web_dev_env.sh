@@ -29,3 +29,4 @@ else
 fi
 
 rm -rf .git
+rm -rf .gitignore
