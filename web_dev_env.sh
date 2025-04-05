@@ -28,5 +28,8 @@ else
     mkdir -p data
 fi
 
+touch buildTools/.env
+echo "NAME=$project" > buildTools/.env
+
 rm -rf .git
 rm -rf .gitignore
