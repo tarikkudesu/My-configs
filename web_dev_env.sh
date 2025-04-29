@@ -11,11 +11,11 @@ echo "Project Name: $project"
 # Clone the 'devenv' repository into the project directory
 if [ -z "$project" ]; then
     echo "Cloning 'devenv' repository into the current directory..."
-    git clone git@github.com:tarikkudesu/devenv.git
+    git clone https://github.com/tarikkudesu/devenv.git
     cd devenv
 else
     echo "Cloning 'devenv' repository into project directory: $project"
-    git clone git@github.com:tarikkudesu/devenv.git "$project"
+    git clone https://github.com/tarikkudesu/devenv.git "$project"
     cd "$project"
 fi
 
