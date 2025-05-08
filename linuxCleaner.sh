@@ -1,9 +1,5 @@
 #!/bin/bash
 
-# Author: Ana Alejandra Castillejo
-# Description: Script to clean cache and temporary files for 42 students with Linux/Ubuntu
-# Last Update: 27/08/2024
-
 # List of default paths to clean along with their process name 
 declare -A DEF_PATHS_TO_CLEAN=(
     ["$HOME/.cache"]="none"

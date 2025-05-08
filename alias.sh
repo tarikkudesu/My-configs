@@ -14,3 +14,4 @@ alias help='curl -fsSL https://raw.githubusercontent.com/tarikkudesu/My-configs/
 alias cppf="c++ -Wall -Wextra -Werror -std=c++98"
 alias cppm='curl -fsSL https://raw.githubusercontent.com/tarikkudesu/My-configs/refs/heads/main/cppm.sh | bash'
 alias cm='curl -fsSL https://raw.githubusercontent.com/tarikkudesu/My-configs/refs/heads/main/cm.sh | bash'
+alias nm='curl -fsSL https://raw.githubusercontent.com/tarikkudesu/My-configs/refs/heads/main/nm.sh | bash'

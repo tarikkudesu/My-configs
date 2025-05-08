@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#Author Tarik AMEHRI
+#42login : tamehri
+
 echo -n "Enter project name: "
 read project
 echo -n "Enter the GitHub repository (leave empty for a local project): "
@@ -33,3 +36,4 @@ echo "NAME=$project" > buildTools/.env
 
 rm -rf .git
 rm -rf .gitignore
+rm -rf README.md
