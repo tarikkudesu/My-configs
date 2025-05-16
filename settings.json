@@ -6,7 +6,8 @@
 	"files.exclude": {
 		"**/*.o": true,
 		"**/*.gitignore": true,
-		"**/.vscode": true
+		"**/.vscode": true,
+		"**/.prettierrc": true
 	},
 	"editor.fontWeight": "bold",
 	"workbench.sideBar.location": "left",
