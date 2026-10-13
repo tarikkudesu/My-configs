@@ -1,8 +1,16 @@
 #!/bin/sh
+set -eu
 
-sudo apt update
-sudo apt install -y curl gpg
-sudo mkdir -p /etc/apt/keyrings
-curl -fsSL https://pkgs.zabbly.com/key.asc | sudo gpg -- dearmor -o /etc/apt/keyrings/zabbly.gpg
-sudo apt update
-sudo apt install -y incus
+export DEBIAN_FRONTEND=noninteractive
+
+sudo -n apt-get update
+sudo -n apt-get install -y curl gpg ca-certificates
+
+sudo -n mkdir -p /etc/apt/keyrings
+
+curl -fsSL https://pkgs.zabbly.com/key.asc |
+  sudo -n gpg --batch --yes --dearmor \
+    -o /etc/apt/keyrings/zabbly.gpg
+
+sudo -n apt-get update
+sudo -n apt-get install -y incus
