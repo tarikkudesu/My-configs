@@ -132,3 +132,8 @@ Completion Navigation
 ### Search Files
 - `/` — Search for a file or folder within NERDTree.
 
+# install incus
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/tarikkudesu/My-configs/refs/heads/main/incus.sh | bash
+```
