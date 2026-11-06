@@ -2,7 +2,7 @@
 #Author Tarik AMEHRI
 #42login : tamehri
 
-cppfiles=$(find . -name "*.cpp" | tr '\n' ' ')
+cppfiles=$(find . -name "*.cpp" | tr '\n' ' \\\n            ')
 hppfiles=$(find . -name "*.hpp" | tr '\n' ' ')
 
 echo "SRC		=	${cppfiles}" > Makefile
@@ -12,10 +12,10 @@ echo '' >> Makefile
 echo 'all: $(NAME)' >> Makefile
 echo '' >> Makefile
 echo '$(NAME): $(OBJ)' >> Makefile
-echo '	@c++ -Wall -Wextra -Werror -std=c++98 $(OBJ) -o $(NAME)' >> Makefile
+echo '	@c++ -Wall -Wextra -Werror -std=c++17 $(OBJ) -o $(NAME)' >> Makefile
 echo '' >> Makefile
 echo "%.o: %.cpp ${hppfiles}" >> Makefile
-echo '	@c++ -Wall -Wextra -Werror -std=c++98 -c $< -o $@' >> Makefile
+echo '	@c++ -Wall -Wextra -Werror -std=c++17 -c $< -o $@' >> Makefile
 echo '' >> Makefile
 echo 'clean:' >> Makefile
 echo '	@rm -f $(OBJ)' >> Makefile
