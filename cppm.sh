@@ -2,7 +2,7 @@
 #Author Tarik AMEHRI
 #42login : tamehri
 
-cppfiles=$(find . -name "*.cpp" | tr '\n' ' \\\n            ')
+cppfiles=$(find . -name "*.cpp")
 hppfiles=$(find . -name "*.hpp" | tr '\n' ' ')
 
 echo "SRC		=	${cppfiles}" > Makefile
